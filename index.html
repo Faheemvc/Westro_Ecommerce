@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Westro</title>
+    <link rel="shortcut icon" href="/icons/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="nav">
+        <span class="nav_icon" id="nav_ham"> <button class="ham_btn"><img src="icons/menu 1.png" width="40px"
+                    alt="menu"></button> </span>
+        <span class="nav_icon" id="nav_logo"> <a href=""><img src="icons/logo_transparent.png" alt="westro">
+                <h2>Westro</h2>
+            </a> </span>
+        <div class="nav_icon" id="sub_nav">
+            <div class="nav_icon" id="nav_search">
+                <input type="text" class="search_inp" placeholder="search">
+                <button class="search_btn">
+                    <img src="icons/search.png" width="40px" alt="search">
+                </button>
+            </div>
+            <span class="nav_icon" id="nav_cart"> <button class="cart_btn" type="button"><img src="icons/cart.png"
+                        width="40px" alt="cart"></button> </span>
+            <div class="profile">
+                <button class="profile_btn" id="profileBtn"> <img src="/icons/user.png" alt=""> </button>
+                <ul id="loginDrop">
+                    <li>
+                        <button href="" id="aLogin">Login</button>
+                    </li>
+                    <hr>
+                    <li>
+                        <button href="" id="aSignup">Sign up</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="login" id="login">
+        <button class="login_close" id="login_cls">X</button>
+        <form action="" class="login_form">
+            <h2>Login</h2>
+
+            <label for="name">User name</label>
+            <input type="text" name="name" placeholder="Name">
+            <br>
+            <label for="password">password</label>
+            <input type="password" name="password" placeholder="password">
+            <br>
+            <button type="submit">Login</button>
+        </form>
+
+    </nav>
+    <!-- if user is not empty (user logged in) then set profile as new tab -->
+
+    <!-- <script src="index.js"></script> -->
+    <div class="ham_div" id="ham_div">
+        <button id="ham_close">X</button>
+        <ul class="ham_div_ul">
+
+            <li class="ham_div_li"> <a href="index.html"> Home </a></li>
+            <li class="ham_div_li">Main Courses</li>
+            <li class="ham_div_li">Drinks</li>
+            <li class="ham_div_li">Starter</li>
+            <li class="ham_div_li">Soup</li>
+            <li class="ham_div_li">Kids Food</li>
+        </ul>
+    </div>
+
+    <div class="banner">
+
+
+        <div class="banner-link">
+            <a href="#banner1"></a>
+            <a href="#banner2"></a>
+            <a href="#banner3"></a>
+        </div>
+        <div class="banner-content">
+            <div class="banner_img banner1" id="banner1">
+                <div class="banner_text">
+                    <h1>Let food be thy medicine and medicine be thy food</h1>
+                    <a href="www.google.com">
+                        <img src="icons/youtube1.png" alt="" class="banner_yt">
+                        <h2>How to order</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="banner_img banner2" id="banner2">
+                <div class="banner_text">
+                    <h1>A colorful medley of flavors and nutrients in every bite</h1>
+                    <a href=""> <img src="icons/youtube1.png" alt="" class="banner_yt">
+                        <h2>How to order</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="banner_img banner3" id="banner3">
+                <div class="banner_text">
+                    <h1>A real prince brings coffee.</h1>
+                    <a href=""><img src="icons/youtube1.png" alt="" class="banner_yt">
+                        <h2>How to order</h2>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="food_sec">
+        <div class="food_items"> <button class="food_order_btn">Shop Now</button> </div>
+        <div class="food_items"> <button class="food_order_btn">Shop Now</button> </div>
+        <div class="food_items"> <button class="food_order_btn">Shop Now</button> </div>
+        <div class="food_items"> <button class="food_order_btn">Shop Now</button> </div>
+        <div class="food_items"> <button class="food_order_btn">Shop Now</button> </div>
+        <div class="food_items"> <button class="food_order_btn">Shop Now</button> </div>
+        <div class="food_items"> <button class="food_order_btn">Shop Now</button> </div>
+        <div class="food_items"> <button class="food_order_btn">Shop Now</button> </div>
+        <div class="food_items"> <button class="food_order_btn">Shop Now</button> </div>
+        <div class="food_items"> <button class="food_order_btn">Shop Now</button> </div>
+    </div>
+
+    <div class="food_sec">
+        <div class="food_items"> <button class="food_order_btn">Shop Now</button> </div>
+        <div class="food_items"> <button class="food_order_btn">Shop Now</button> </div>
+        <div class="food_items"> <button class="food_order_btn">Shop Now</button> </div>
+        <div class="food_items"> <button class="food_order_btn">Shop Now</button> </div>
+        <div class="food_items"> <button class="food_order_btn">Shop Now</button> </div>
+        <div class="food_items"> <button class="food_order_btn">Shop Now</button> </div>
+        <div class="food_items"> <button class="food_order_btn">Shop Now</button> </div>
+        <div class="food_items"> <button class="food_order_btn">Shop Now</button> </div>
+        <div class="food_items"> <button class="food_order_btn">Shop Now</button> </div>
+        <div class="food_items"> <button class="food_order_btn">Shop Now</button> </div>
+    </div>
+
+
+
+</body>
+
+<script src="/index.js">
+
+</script>
+
+</html>
